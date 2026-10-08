@@ -9,8 +9,8 @@
 | Gustavo Rocha | 564152 |
 | Gabriel Santos | 562419 |
 
-- **Aplicação Streamlit:** PREENCHER_COM_URL_DA_APLICACAO
-- **Repositório:** PREENCHER_COM_URL_DO_REPOSITORIO
+- **Aplicação Streamlit:https://f1-podio-cp05.streamlit.app/
+- **Repositório:https://github.com/Gabsantosoli/f1-podio-cp05.git
 
 ## Problema
 
