@@ -77,11 +77,14 @@ def opcao(lista, valor):
 st.sidebar.divider()
 st.sidebar.subheader("Sobre o modelo")
 st.sidebar.markdown(
-    f"**{meta['modelo']}** ({meta['configuracao']})  \n"
-    f"ROC-AUC validação cruzada: **{num(meta['auc_cv_media'])} ± {num(meta['auc_cv_dp'])}**  \n"
-    f"ROC-AUC teste: **{num(meta['metricas_teste']['roc_auc'])}**  \n"
-    f"Limiar de decisão: **{pct(meta['limiar'])}**  \n"
-    f"Dados: F1DB {meta['f1db_versao']} (2014 em diante)"
+    f"**Algoritmo:** {meta['modelo']}, com hiperparâmetros ajustados pelo {meta['configuracao']}.\n\n"
+    f"**Nota do modelo:** {num(meta['metricas_teste']['roc_auc'], 2)} de 1,00 (ROC-AUC). "
+    f"Comparando um piloto que subiu ao pódio com um que não subiu, o modelo dá a maior chance "
+    f"para o que subiu em cerca de {meta['metricas_teste']['roc_auc']:.0%} das vezes.\n\n"
+    f"Essa nota foi medida em corridas que o modelo não viu no treino, e ficou igual à do "
+    f"desenvolvimento ({num(meta['auc_cv_media'], 2)}).\n\n"
+    f"**Quando prevê pódio:** a partir de {pct(meta['limiar'])} de chance.\n\n"
+    f"**Dados:** corridas de 2014 a 2026 da base F1DB."
 )
 
 # ------------------------------------------------------------------ entradas
