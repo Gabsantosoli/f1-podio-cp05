@@ -1,7 +1,0 @@
-caso,date,driverId,positionText,grid,posicao_classificacao,largada_pit_lane,ano,etapa,pontos_piloto_antes,posicao_piloto_antes,pontos_equipe_antes,posicao_equipe_antes,podios_piloto_ult5,podios_equipe_ult5,largadas_carreira,equipe,motor,circuito,tipo_circuito,podio,probabilidade
-Favorito que confirmou o pódio,2017-10-08,lewis-hamilton,1,1.0,1.0,0,2017,16,281.0,1.0,503.0,1.0,4.0,7.0,203,mercedes,mercedes,suzuka,RACE,1,0.792791
-"Fora do pódio, previsto com segurança",2014-07-27,daniil-kvyat,14,10.0,11.0,0,2014,11,6.0,15.0,15.0,7.0,0.0,0.0,10,racing-bulls,renault,hungaroring,RACE,0,0.016315214
-Caso de fronteira (perto do limiar),2022-07-10,george-russell,4,4.0,4.0,0,2022,11,111.0,5.0,204.0,3.0,2.0,4.0,70,mercedes,mercedes,spielberg,RACE,0,0.38786533
-Pódio vindo de trás (difícil),2024-11-03,pierre-gasly,3,13.0,15.0,0,2024,21,9.0,16.0,14.0,9.0,0.0,0.0,149,alpine,renault,interlagos,RACE,1,0.01490453
-Favorito que não subiu ao pódio (difícil),2014-07-27,nico-rosberg,4,1.0,1.0,0,2014,11,190.0,1.0,366.0,1.0,4.0,8.0,157,mercedes,mercedes,hungaroring,RACE,0,0.7804515
-Largada do pit lane,2014-11-23,sebastian-vettel,8,19.0,,1,2014,19,159.0,4.0,373.0,2.0,2.0,4.0,138,red-bull,renault,yas-marina,RACE,0,0.12622532
